@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada Online</title>
+    <link rel="stylesheet" href="estiloTabuada.css">
+
+</head>
+<body>
+    <header><h1>Gerador De Tabuada Online</h1></header>
+    
+    <section class="containerPrincipal">
+        <p>Qual tabuada você quer ? <input type='number' id='numTabuada'>
+            <input type='submit' value='Vai !' onclick="funcBotao()" >
+        </p>
+
+        <div class="divTabuada">
+            <select id='resultadoTabuada' size=10> </select>
+        </div>
+        
+
+    </section>
+    <header><footer class="rodape">&copy; William C Barbosa</footer></header>
+    
+    <script src='logicaTabuada.js'></script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang=pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador Idade</title>
+    <link href='verificadorIDade.css' rel='stylesheet'>
+
+
+</head>
+<body>
+
+    <h1>Verificador de Idade</h1>
+
+    <section class="containerPrincipal">
+        <div class='divSemiPrincipal'>
+            <p>
+                Ano de nascimento:
+                <input type="number" id="entradaAno">
+            </p>
+
+            <p>
+              Sexo:
+              <input type="radio" name='confirmRadio'checked >
+              <label for='Mas'>Masculino</label>
+              <input type="radio" name='confirmRadio' >
+              <label for='Fem'>Feminino</label> 
+            </p>
+            
+            <button id='botaoConfi' onclick="chamadaPeloBotao()">Verificar</button>
+
+        </div>
+
+        <div id="textoUsuario" class='textoUsuario'> Informação para o usuario </div>
+
+        <div class="divImagem">
+            <img id='imgPessoa' src='img/adolescenteMasculino.jpg'>
+        </div>
+    </section>
+
+    <footer class="rodape">&copy;William C Barbosa</footer>
+    <script src='verificadorIdadelogica.js'></script>
+</body>
+</html>

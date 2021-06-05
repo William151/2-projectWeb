@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.856);
+    font-family: Bradley Hand, cursive;
+}
+
+section{
+    
+    margin: 0px auto;
+    box-shadow: 3px 6px rgba(111, 207, 16, 0.534);
+    text-align: left;
+    width: 600px;
+    border-radius: 10%;
+    padding: 30px;
+
+}
+
+div{
+    padding: 20px;
+    color: chartreuse;
+}
+
+select{
+    width: auto;
+    height: 200px;
+    border-radius: 5px;
+    background-color: rgba(125, 238, 12, 0.253);
+
+}
+select::-webkit-scrollbar{
+    background-color: rgba(128, 255, 0, 0.192);
+}
+option{
+    cursor: pointer;
+    
+    color: chartreuse;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    color: chartreuse;
+}
+
+input[type=number]{
+    height: 30px;
+    border-radius: 10%;
+    outline: none;
+    border-bottom: chartreuse;
+    border: none;
+    color: chartreuse;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+input[type=submit]{
+    width: 100px;
+    height: 25px;
+    background-color: rgba(128, 255, 0, 0.562);
+    border-radius: 15%;
+    outline: none;
+    font-size: 18px;
+
+}
+
+input[type=submit]:hover{
+    transition: 0.5s;
+    background-color: chartreuse;
+    border-radius: 50%;
+    
+}
+
+p.terminar{
+    padding: 10px;
+}

@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: url(imagemFundoTabuada.jpg);
+    
+}
+
+h1{
+    color:rgb(212, 247, 10);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    color: rgb(247, 10, 10);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section.containerPrincipal{
+    padding-top: 40px;
+    padding: 40px;
+    width: 500px;
+   
+    border-radius: 10%;
+    margin: 0 auto;
+    color: rgb(234, 238, 14);
+    background: rgba(0, 0, 0, 0.356);
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    opacity: 0.94;
+}
+
+input[type=number]{
+    outline: none;
+    width: 100px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type='submit']{
+    outline: none;
+    width: 70px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    background-color: teal;
+    border-radius: 10%;
+}
+
+input[type=submit]:hover{
+    transition: 1s;
+    background-color: turquoise;
+
+}
+
+select{
+    color: red;
+    width: 150px;
+    height: 200px;
+    float: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}

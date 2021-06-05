@@ -1,0 +1,15 @@
+var func_range = function(de, para , em){
+    if(em > 0)
+        for (var x = de; x <= para ; x += em){ // enquanto x é menor que para
+        console.log(x)
+    }
+    else if(em < 0){
+        for(var x = de; x >= para; x -= em){
+            console.log(x)
+        }
+    }else{
+        window.alert('Zero ?')
+    }
+}
+
+func_range(20, 10, -2)

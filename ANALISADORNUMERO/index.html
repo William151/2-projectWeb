@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Numeros</title>
+    <link rel="stylesheet" href="estiloanalisador.css">
+</head>
+<body>
+    <header> <h1>Analisador de Números</h1> </header>
+    <section>
+        <div class="Primaria"> 
+            <p>Número (entre 1 e 100) :
+                <input type='number' id='numeroUsuario' >
+                <input type='submit' value='Adicionar' onclick="clickButtonAdd()">
+            </p>
+            
+        </div>
+
+        <div class="Secundaria">
+            <select id='listaSelect' size=100> 
+                <option> Coloque Números Aqui.</option>
+            </select>
+            <p class='terminar'> </p><input type='submit' value='Terminar' onclick="clickButtonFinish()" ></p>
+        </div>
+
+        <div class="Tercearia" id='resu'>
+            resultado aqui
+
+
+        </div>
+    </section>
+
+    <header> <footer>&copy; William C Barbosa</footer> </header>
+    <script src='logicaAnalisador.js'></script>
+    
+</body>
+</html>
